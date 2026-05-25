@@ -1,1 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+    /* custom fonts */
+    --font-limelight: "Limelight", sans-serif;
+    --font-oswald: "Oswald", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+
+    /* custom breakoint */
+    --breakpoint-xs: 450px;
+}
+
+@layer base {
+    body {
+        @apply font-roboto bg-black text-white;
+    }
+}
+
+html {
+    @apply scroll-smooth;
+}
+
+a.active {
+    @apply text-red-500 scale-110;
+}
