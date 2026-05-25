@@ -20,8 +20,6 @@ const SearchList = ({ title }) => {
         navigate("/");
     };
 
-    console.log(movies[0]);
-
     return (
         <div className='w-full px-3 md:px-0 pb-5 pt-35 -translate-y-15 bg-black'>
             <div className='w-full container mx-auto space-y-8'>
