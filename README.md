@@ -1,4 +1,4 @@
-## ✨ React Learning Journey | React + Tailwindcss
+## 📽 FilmyBeat | React + Tailwindcss
 
 - FilmyBeat - A organized movie listing platform using TMDB api.
 
